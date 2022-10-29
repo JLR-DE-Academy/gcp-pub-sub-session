@@ -2,7 +2,7 @@ from google.cloud import pubsub_v1
 
 # TODO (change it to yours)
 project_id = "jlr-dl-cat-training"
-topic_id = "temp-2022-jlr-de-topic-ben"
+topic_id = "temp-2022-jlr-de-topic-<your-name>"
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
