@@ -3,7 +3,7 @@ from google.cloud import pubsub_v1
 
 # TODO (change it to yours)
 project_id = "jlr-dl-cat-training"
-subscription_id = "temp-2022-jlr-de-subscription-<your-name>"
+subscription_id = "temp-2022-jlr-de-subscription-ben"
 # Number of seconds the subscriber should listen for messages
 timeout = 5.0
 
