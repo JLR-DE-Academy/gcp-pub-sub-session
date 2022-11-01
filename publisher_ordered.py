@@ -2,7 +2,7 @@ from google.cloud import pubsub_v1
 
 # TODO(developer): Choose an existing topic.
 project_id = "jlr-dl-cat-training"
-topic_id = "temp-2022-jlr-de-topic-ben"
+topic_id = "temp-2022-jlr-de-topic-<your-name>"
 message_key = "room-<room-number>"
 
 publisher_options = pubsub_v1.types.PublisherOptions(enable_message_ordering=True)
